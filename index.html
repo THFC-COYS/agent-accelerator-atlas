@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Industry Agent Accelerator Atlas</title>
+<meta name="description" content="The hub for Greg Lucas’s Industry Agent Accelerator series: eleven industry editions of one agentic transformation method, mapped to the Microsoft, Google Cloud, and Meta Muse stacks, unified by the Identify to Prove arc and governance first design.">
+<style>
+  :root{--ink:#101418;--muted:#5a6672;--line:#dde3ea;--bg:#f6f8fb;--blue:#0067b8;--blue-dark:#0f2233;--teal:#0e7490;--card:#ffffff}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+  .wrap{max-width:920px;margin:0 auto;padding:32px 20px 64px}
+  header.hero{background:linear-gradient(135deg,#101418,#334155);color:#fff;border-radius:16px;padding:36px 32px;margin-bottom:24px}
+  header.hero h1{margin:0 0 8px;font-size:2rem;line-height:1.15}
+  header.hero p{margin:0;opacity:.94;max-width:680px}
+  header.hero .byline{margin-top:14px;font-size:.9rem;opacity:.85}
+  header.hero .pill{display:inline-block;margin-top:14px;border:1px solid rgba(255,255,255,.5);border-radius:999px;padding:4px 12px;font-size:.82rem;opacity:.95}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px;margin-bottom:20px}
+  h2{margin:0 0 10px;font-size:1.25rem}
+  h3{margin:18px 0 6px;font-size:1.05rem}
+  p.lede{color:var(--muted);margin:0 0 8px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:14px}
+  .pattern{border:1px solid var(--line);border-radius:12px;padding:16px;background:#fbfcfe}
+  .pattern h3{margin:0 0 6px;color:var(--blue-dark)}
+  .pattern p{margin:0 0 8px;font-size:.95rem}
+  .pattern .outcome{font-weight:650;color:var(--teal)}
+  table{border-collapse:collapse;width:100%;margin-top:10px;font-size:.92rem}
+  th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+  th{background:#eef2f6;color:var(--blue-dark)}
+  .dims{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:14px}
+  .dim-chip{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:#fbfcfe}
+  .dim-chip b{display:block;color:var(--blue-dark)}
+  .dim-chip span{font-size:.85rem;color:var(--muted)}
+  ul.plan{margin:6px 0 0;padding-left:20px}
+  ul.plan li{margin:5px 0}
+  footer{color:var(--muted);font-size:.9rem;text-align:center;margin-top:28px}
+  a{color:#0067b8}
+  .tag{display:inline-block;border-radius:999px;padding:2px 10px;font-size:.78rem;font-weight:700;background:#e8eef4;color:#0f2233}
+  .tag.live{background:#e3f2e3;color:#107c10}
+  @media (max-width:560px){ header.hero{padding:26px 20px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <h1>Industry Agent Accelerator Atlas</h1>
+    <p>One method, eleven industries, three platform stacks. Every edition of this series packages the same discipline (a pattern library, a readiness assessment, a governance mapping, and a handoff pack) translated into the language, controls, and stack of its industry. This atlas is the map.</p>
+    <p class="byline">A portfolio series by Greg Lucas, founder of AIccountable and creator of agentlint. Built to show the work: how an enterprise moves agents from pilots to governed production, industry by industry.</p>
+    <span class="pill">Independent portfolio project. Not affiliated with or endorsed by Microsoft, Google, or Meta.</span>
+  </header>
+  <section class="card">
+    <h2>The matrix: industry by platform stack</h2>
+    <p class="lede">Four editions run on the Microsoft stack, four on Google Cloud, and three on Meta Muse. Eleven editions: financial services is the original Microsoft edition, and professional services and SMB close the series on Muse.</p>
+    <table>
+      <tr><th>Industry</th><th>Stack</th><th>Vendor</th><th>Edition</th><th>Status</th></tr>
+      <tr><td>Financial Services</td><td>Azure AI Foundry, Copilot Studio, Microsoft 365 Copilot, Fabric, Purview</td><td>Microsoft</td><td><a href="https://fsi-agent-accelerator.vercel.app">fsi-agent-accelerator.vercel.app</a></td><td><span class="tag live">Live</span></td></tr>
+      <tr><td>Healthcare</td><td>Vertex AI, Gemini, Cloud Healthcare API, BigQuery, Looker</td><td>Google Cloud</td><td><a href="https://health-agent-accelerator.vercel.app">health-agent-accelerator.vercel.app</a></td><td><span class="tag">Built</span></td></tr>
+      <tr><td>Retail and Commerce</td><td>Vertex AI Search for commerce, Gemini, BigQuery, Looker</td><td>Google Cloud</td><td><a href="https://retail-agent-accelerator.vercel.app">retail-agent-accelerator.vercel.app</a></td><td><span class="tag">Built</span></td></tr>
+      <tr><td>Public Sector</td><td>Azure Government, Azure AI Foundry, Microsoft 365 Copilot, Purview, Defender</td><td>Microsoft</td><td><a href="https://gov-agent-accelerator.vercel.app">gov-agent-accelerator.vercel.app</a></td><td><span class="tag">Built</span></td></tr>
+      <tr><td>Higher Education</td><td>Muse agents, Muse API, Meta Business Agent, Muse Code</td><td>Meta Muse</td><td><a href="https://campus-agent-accelerator.vercel.app">campus-agent-accelerator.vercel.app</a></td><td><span class="tag">Built</span></td></tr>
+      <tr><td>Media and Creator Economy</td><td>Muse agents, Muse API, Meta Business Agent, Meta platforms</td><td>Meta Muse</td><td><a href="https://media-agent-accelerator.vercel.app">media-agent-accelerator.vercel.app</a></td><td><span class="tag">Built</span></td></tr>
+      <tr><td>Manufacturing</td><td>Azure AI Foundry, Azure IoT Operations, Dynamics 365, Fabric, Defender for IoT</td><td>Microsoft</td><td><a href="https://manufacturing-agent-accelerator.vercel.app">manufacturing-agent-accelerator.vercel.app</a></td><td><span class="tag">Built</span></td></tr>
+      <tr><td>Energy and Utilities</td><td>Vertex AI, Gemini, BigQuery, Google Earth Engine</td><td>Google Cloud</td><td><a href="https://energy-agent-accelerator.vercel.app">energy-agent-accelerator.vercel.app</a></td><td><span class="tag">Built</span></td></tr>
+      <tr><td>Life Sciences and Pharma</td><td>Vertex AI, Gemini, Cloud Healthcare API, BigQuery</td><td>Google Cloud</td><td><a href="https://lifesciences-agent-accelerator.vercel.app">lifesciences-agent-accelerator.vercel.app</a></td><td><span class="tag">Built</span></td></tr>
+      <tr><td>Transportation and Logistics</td><td>Azure AI Foundry, Dynamics 365 Supply Chain, Fabric, Copilot Studio, Azure Maps</td><td>Microsoft</td><td><a href="https://logistics-agent-accelerator.vercel.app">logistics-agent-accelerator.vercel.app</a></td><td><span class="tag">Built</span></td></tr>
+      <tr><td>Professional Services and SMB</td><td>Meta Business Agent, Muse agents, Muse API</td><td>Meta Muse</td><td><a href="https://proservices-agent-accelerator.vercel.app">proservices-agent-accelerator.vercel.app</a></td><td><span class="tag">Built</span></td></tr>
+    </table>
+    <p class="lede" style="margin-top:12px">Status note: the FSI edition is live. The remaining editions are built and in publication; their links resolve as each deployment completes.</p>
+  </section>
+  <section class="card">
+    <h2>Microsoft</h2>
+    <p class="lede">Four editions on the Microsoft stack: enterprise and public sector transformation on Azure, where governance evidence is produced by the platform as the agent runs.</p>
+    <div class="grid">
+      <div class="pattern">
+        <h3>Financial Services</h3>
+        <p>The original edition, built for a Frontier Industry Advisory style FSI transformation role.</p>
+        <p class="outcome"><a href="https://fsi-agent-accelerator.vercel.app">Open the Financial Services edition</a></p>
+      </div>
+      <div class="pattern">
+        <h3>Public Sector</h3>
+        <p>FedRAMP and StateRAMP framing, Section 508 accessibility, records retention, human decision authority.</p>
+        <p class="outcome"><a href="https://gov-agent-accelerator.vercel.app">Open the Public Sector edition</a></p>
+      </div>
+      <div class="pattern">
+        <h3>Manufacturing</h3>
+        <p>The OT and IT boundary drawn first: agents advise and prepare, humans authorize every physical action.</p>
+        <p class="outcome"><a href="https://manufacturing-agent-accelerator.vercel.app">Open the Manufacturing edition</a></p>
+      </div>
+      <div class="pattern">
+        <h3>Transportation and Logistics</h3>
+        <p>Exception management at network scale with customs compliance gates and chain of custody logging.</p>
+        <p class="outcome"><a href="https://logistics-agent-accelerator.vercel.app">Open the Transportation and Logistics edition</a></p>
+      </div>
+    </div>
+  </section>
+  <section class="card">
+    <h2>Google Cloud</h2>
+    <p class="lede">Four editions on Google Cloud: data and AI depth on Vertex AI, Gemini, and BigQuery, applied to healthcare, commerce, energy, and life sciences.</p>
+    <div class="grid">
+      <div class="pattern">
+        <h3>Healthcare</h3>
+        <p>Workflow and administrative patterns only, clinician sign off on anything consequential, HIPAA controls as design inputs.</p>
+        <p class="outcome"><a href="https://health-agent-accelerator.vercel.app">Open the Healthcare edition</a></p>
+      </div>
+      <div class="pattern">
+        <h3>Retail and Commerce</h3>
+        <p>Grounded in the catalog of record, with pricing accuracy audits and brand safety as launch gates.</p>
+        <p class="outcome"><a href="https://retail-agent-accelerator.vercel.app">Open the Retail and Commerce edition</a></p>
+      </div>
+      <div class="pattern">
+        <h3>Energy and Utilities</h3>
+        <p>NERC CIP aware governance and one absolute rule: no autonomous grid actions, ever.</p>
+        <p class="outcome"><a href="https://energy-agent-accelerator.vercel.app">Open the Energy and Utilities edition</a></p>
+      </div>
+      <div class="pattern">
+        <h3>Life Sciences and Pharma</h3>
+        <p>GxP validation framing, 21 CFR Part 11 awareness, human sign off on every regulated output, no medical advice.</p>
+        <p class="outcome"><a href="https://lifesciences-agent-accelerator.vercel.app">Open the Life Sciences and Pharma edition</a></p>
+      </div>
+    </div>
+  </section>
+  <section class="card">
+    <h2>Meta Muse</h2>
+    <p class="lede">Three editions on Meta Muse: agents that meet people where they already are, in education, in the creator economy, and in the small business front office.</p>
+    <div class="grid">
+      <div class="pattern">
+        <h3>Higher Education</h3>
+        <p>Institution wide: advising, enrollment, student success, campus services. FERPA framed, with verified authorship through Aithentik.</p>
+        <p class="outcome"><a href="https://campus-agent-accelerator.vercel.app">Open the Higher Education edition</a></p>
+      </div>
+      <div class="pattern">
+        <h3>Media and Creator Economy</h3>
+        <p>Creator business operations with disclosure, AI labeling, likeness rights, and platform policy as launch gates.</p>
+        <p class="outcome"><a href="https://media-agent-accelerator.vercel.app">Open the Media and Creator Economy edition</a></p>
+      </div>
+      <div class="pattern">
+        <h3>Professional Services and SMB</h3>
+        <p>The SMB wedge: Meta Business Agent was built for this market, firms that live in messages and run on their principals.</p>
+        <p class="outcome"><a href="https://proservices-agent-accelerator.vercel.app">Open the Professional Services and SMB edition</a></p>
+      </div>
+    </div>
+  </section>
+  <section class="card">
+    <h2>One method underneath: Identify to Prove</h2>
+    <p class="lede">Every edition runs the same five stage arc Greg Lucas uses at AIccountable. The industries change the vocabulary, the controls, and the stack. The sequence does not change, because the failure pattern it prevents does not change: pilots built before governance, scaled before proof.</p>
+    <div class="dims">
+      <div class="dim-chip"><b>Identify</b><span>Census the use cases, name owners, tier the risk before anything is built</span></div>
+      <div class="dim-chip"><b>Train</b><span>Role based readiness for the people who will work with agents and answer for them</span></div>
+      <div class="dim-chip"><b>Design</b><span>Governed data, platform architecture, and a written charter for every agent</span></div>
+      <div class="dim-chip"><b>Implement</b><span>Bounded pilots behind approval gates, packaged as reusable patterns</span></div>
+      <div class="dim-chip"><b>Prove</b><span>Logged evidence, measured outcomes, and a governance body that can stop an agent</span></div>
+    </div>
+  </section>
+  <section class="card">
+    <h2>Reading readiness across industries</h2>
+    <p class="lede">Each edition contains the same 15 question assessment instrument, adapted to its industry. Scores are comparable by design: the stage bands mean the same thing everywhere, so a leadership team running several editions can read its portfolio on one page.</p>
+    <table>
+      <tr><th>Stage</th><th>Score band</th><th>What it means in any industry</th><th>The next move</th></tr>
+      <tr><td>Stage 1: Census</td><td>0 to 24</td><td>Interest exists, inventory does not. Agent activity is scattered and unowned.</td><td>Run the census, tier the risk, charter one low risk pattern.</td></tr>
+      <tr><td>Stage 2: Charter</td><td>25 to 49</td><td>Foundations are forming. Governance is partial, data is uneven, pilots are artisanal.</td><td>Charter the first pattern, fix its data, pilot behind approval gates.</td></tr>
+      <tr><td>Stage 3: Scale</td><td>50 to 74</td><td>Agents run in production workflows with governance as routine.</td><td>Package patterns for reuse, automate evaluation gates, report outcomes monthly.</td></tr>
+      <tr><td>Stage 4: Transform</td><td>75 to 100</td><td>Agents are part of how the organization runs, measured at portfolio level.</td><td>Operate the pattern factory, extend reach only where Prove metrics stay green.</td></tr>
+    </table>
+    <p class="lede" style="margin-top:12px">The cross industry lesson the atlas exists to make visible: the binding constraint is rarely the model or the stack. It is charters, governed data, trained people, and proof. Those four are portable across every row of the matrix.</p>
+  </section>
+  <section class="card">
+    <h2>Companion projects</h2>
+    <ul class="plan">
+      <li><a href="https://github.com/THFC-COYS/agentlint">agentlint</a>: the open source governance linter whose checks anchor every edition’s governance mapping.</li>
+      <li><a href="https://business-agent-readiness.vercel.app">Business Agent Readiness</a>: the AGENT Framework assessment for businesses adopting agents.</li>
+      <li><a href="https://courseagent-studio.vercel.app">CourseAgent Studio</a>: turns a syllabus into a governed course agent, the in course companion to the campus edition.</li>
+      <li><a href="https://muse-exchange.vercel.app">Muse Exchange</a> and <a href="https://muse-sim.vercel.app">MuSe SIM</a>: the agent marketplace and agent society built on Meta Muse.</li>
+    </ul>
+  </section>
+  <footer>
+    Industry Agent Accelerator Atlas is an independent portfolio artifact by
+    <a href="https://www.linkedin.com/in/greg-lucas-28765b416/">Greg Lucas</a>
+    (pAIgeBreaker, AIccountable), creator of
+    <a href="https://github.com/THFC-COYS/agentlint">agentlint</a>.
+    Microsoft, Azure, Dynamics 365, and Copilot are trademarks of the Microsoft group of companies. Google Cloud, Vertex AI, Gemini, BigQuery, and Google Earth Engine are trademarks of Google LLC. Meta and Muse are trademarks of Meta Platforms, Inc. Product names are used nominatively to describe platform mappings. This project is not affiliated with, sponsored by, or endorsed by Microsoft, Google, or Meta. MIT licensed.
+  </footer>
+</div>
+</body>
+</html>
